@@ -1,7 +1,5 @@
 -- Update - Atualiza registros
-update users set 
-first_name = 'Luiz',
-last_name = 'Miranda'
-where id between 119 and 121;
+UPDATE users SET first_name = 'Luiz', last_name = 'Pereira'
+WHERE id = 90;
 
-select * from users where id between 119 and 121;
+SELECT * FROM users WHERE id = 90;
